@@ -2,10 +2,10 @@ numpy
 pandas
 Flask
 scikit-learn
-from torch import load
-from torch import device
-from torch import unsqueeze
-from torch import max
+torch.load
+torch.device
+torch.unsqueeze
+torch.max
 torchvision.transforms
 requests
 Pillow
