@@ -2,7 +2,7 @@ numpy
 pandas
 Flask
 scikit-learn
-torch
+torch.max
 torchvision
 requests
 Pillow
