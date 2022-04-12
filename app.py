@@ -12,6 +12,8 @@ import torch
 from torchvision import transforms
 from PIL import Image
 from utils.model import ResNet9
+import os
+port = int(os.environ.get('PORT', 5000))
 # ==============================================================================================
 
 # -------------------------LOADING THE TRAINED MODELS -----------------------------------------------
@@ -236,4 +238,4 @@ def disease_prediction():
 
 # ===============================================================================================
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run(port=port,debug=False)
